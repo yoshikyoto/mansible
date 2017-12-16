@@ -5,7 +5,7 @@
 ```
 sudo pip install -r requirements.txt
 ```
-## install OpenCV
+## Install OpenCV
 
 requires numpy
 
@@ -14,4 +14,10 @@ requires numpy
 ```
 brew tap homebrew/science
 brew install opencv
+```
+## Start
+
+```
+cd Mizutama
+python web/app.py
 ```
