@@ -1,0 +1,6 @@
+Flask==0.10.1
+gunicorn==19.7.0
+requests==2.5.3
+psycopg2==2.7
+opencv-python==3.3.0.10
+numpy=1.13.1
