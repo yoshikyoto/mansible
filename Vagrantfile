@@ -16,7 +16,7 @@ Vagrant.configure(2) do |config|
   config.ssh.forward_agent = true
 
   # ホストとディレクトリを同期する例
-  # config.vm.synced_folder "applications", "/home/vagrant/applications", create: true, mount_options: ["uid=vagrant,gid=vagrant"]
+  config.vm.synced_folder "Mizutama", "/home/vagrant/Mizutama", create: true, mount_options: ["uid=vagrant,gid=vagrant"]
 
   # ansibleの設定
   config.vm.provision "ansible" do |ansible|
